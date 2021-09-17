@@ -132,7 +132,25 @@ print("vector6"+str(vector6))
 print("vector7"+str(vector7))
 vector_mul=vector6*vector7
 print("vector_mul "+str(vector_mul))
-
+matrx1=np.arange(10,22).reshape(3,4)
+print(matrx1)
+print("Number of rows and column")
+print(np.shape(matrx1))
+print("identity matrix")
+identity_mat= np.identity(3,dtype=int)
+print(identity_mat)
+identity_eye= np.eye(3,dtype=int)
+print(identity_eye)
+print("zeros matrix with diagnal 1,2,3,4,5")
+zero_mat=np.diag([1,2,3,4,5])
+print(zero_mat)
+print("creating 1,2,3d matrix")
+ONED_ARRAY=np.arange(6)
+TWOD_ARRAY=np.arange(12).reshape(4,3)
+THREED_ARRAY=np.arange(24).reshape(2,4,3)
+print(ONED_ARRAY)
+print(TWOD_ARRAY)
+print(THREED_ARRAY)
 
 
 
