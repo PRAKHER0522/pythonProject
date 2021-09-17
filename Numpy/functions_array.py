@@ -91,3 +91,12 @@ print(rand_num)
 print('random number 15')
 rand_num_15  = np.random.normal(0,1,15)
 print(rand_num_15)
+print("####vector is a numpy array 1D#####")
+print("Horizonal vector")
+horz_vector = np.arange(3)
+print(horz_vector)
+print("Vertical vector")
+vert_vector = np.array([[3],[2],[1]])
+print(vert_vector)
+
+
