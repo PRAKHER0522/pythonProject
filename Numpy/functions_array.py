@@ -109,6 +109,29 @@ print(array3)
 print("each element of array!!!")
 for x in np.nditer(array3):
     print(x,end=" ")
+print("\n")
+print("vector of length 10 with values evenly distributed between 5 and 50.")
+vector3=np.linspace(6,50,5,dtype=int)
+print(vector3)
+vector4 = np.arange(21)
+print(vector4)
+print("change sign  between 9 and 15")
+for x in np.nditer(vector4):
+    if x >=9 and x <=15:
+        print(-x,end=" ")
+    else:
+        print(x,end=" ")
+print("\n")
+vector5 = np.random.randint(0,10,5)
+print(vector5)
+print("Multiplication of 2 vector!!!")
+vector6 = np.arange(3,dtype="int32")
+vector7 = np.array([3,4,5],dtype="int32")
+print("vector6"+str(vector6))
+print("vector7"+str(vector7))
+vector_mul=vector6*vector7
+print("vector_mul "+str(vector_mul))
+
 
 
 
