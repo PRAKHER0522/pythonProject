@@ -122,6 +122,7 @@ for x in np.nditer(vector4):
     else:
         print(x,end=" ")
 print("\n")
+print("arbitory integer")
 vector5 = np.random.randint(0,10,5)
 print(vector5)
 print("Multiplication of 2 vector!!!")
