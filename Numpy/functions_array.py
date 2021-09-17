@@ -98,5 +98,17 @@ print(horz_vector)
 print("Vertical vector")
 vert_vector = np.array([[3],[2],[1]])
 print(vert_vector)
+print('*** vector with values ranging from 15 to 55 and print all valuesexcept the first and last**')
+vector1 = np.arange(15,56)
+vector2 = vector1[1:-1]
+print('vector1 :' +str(vector1))
+print('vector2 :' +str(vector2))
+print('vector 3*4')
+array3 = np.arange(12).reshape(3,4)
+print(array3)
+print("each element of array!!!")
+for x in np.nditer(array3):
+    print(x,end=" ")
+
 
 
